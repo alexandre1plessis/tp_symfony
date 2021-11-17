@@ -12,6 +12,6 @@ require_once('models/posts.php');
 
 
 function getCommentsOfPostController(){
-    $req = getComments(); // Appel au modèle
+    $req = getComments();
     require('views/comments.php');
 }
