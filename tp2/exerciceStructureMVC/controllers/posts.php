@@ -11,6 +11,6 @@ require_once('models/posts.php');
 
 function getPostsListController()
 {
-    $req = getPosts(); // Appel au modèle
+    $req = getPosts();
     require('views/posts.php');
 }
